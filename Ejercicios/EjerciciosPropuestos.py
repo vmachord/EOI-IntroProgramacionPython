@@ -67,6 +67,10 @@ try:
             num1 = input("Ingrese un numero: ")
             num2 = input("Ingrese otro numero: ")
             try:
+                #truquito para usar isdigit con numeros con coma
+                #x=123.2
+                #x.replace(".","",1).isdigit()
+                #obs: split() divide
                 num1=float(num1)
                 num2=float(num2)
                 print(f"La suma es: {num1+num2}")
@@ -147,7 +151,8 @@ try:
             #10. Adivinar una palabra
             palabra = "fiesta"
             r = "si"
-            while(r == "si"):
+            # pongo todo en minuscula con: palabra = input().lower()
+            while(r != "no"):
                 palabraEntrada = input("Entre la palabra a adivinar: ")
                 if (palabra == palabraEntrada):
                     print("Has adivinado!!!")

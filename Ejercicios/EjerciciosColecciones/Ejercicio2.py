@@ -22,3 +22,4 @@ for k in porcentaje_edades.keys():
 
 print(f"La persona con menor edad tiene: {mi_lista[0]} año(s)")
 print(f"La persona con mayor edad tiene: {mi_lista[len(mi_lista)-1]} año(s)")
+print(f"\nHay un total de {mayor_de_18} personas mayores de 18:")

@@ -1,0 +1,15 @@
+//parece un diccionario, uno de ellos tiene como clave una lista
+{"departamentos": 8,
+ "nombredepto": "Ventras",
+ "director": "Juan Rodriguez",
+ "empleados": [
+     {
+        "nombre": "Pedro",
+        "apellido": "Fernandez"
+     },
+     {
+        "nombre": "Jacinto",
+        "apellido": "Benavente"
+     }               
+  ]
+}

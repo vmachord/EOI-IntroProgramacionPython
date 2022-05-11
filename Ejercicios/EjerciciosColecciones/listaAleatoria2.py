@@ -14,6 +14,7 @@ for j in mi_lista:
     else:
         cant_hombres+=1
 
+
 print(f"El porcentaje de mujeres es: {cant_mujeres*100/len(mi_lista)}%")
 print(f"El porcentaje de hombres es: {cant_hombres*100/len(mi_lista)}%")
 

@@ -14,6 +14,7 @@ for i in NombreCiudades:
 #key- Una funcion que sirve como llave para la comparacion de classificacion
 ciudades_sort = sorted(ciudades.items(), key=operator.itemgetter(1),reverse=True)
 
+
 mayor_media=ciudades_sort[0][0]
 menor_media=ciudades_sort[len(ciudades_sort)-1][0]
 

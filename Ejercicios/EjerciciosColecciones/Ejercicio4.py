@@ -1,7 +1,7 @@
 from random import randint
 import operator
 
-NombreCiudades={"Madrid","Barcelona","Sevilla","Malaga","Cordoba","Toledo","Valencia","Bilbau","Salamanca","Palma","Caceres","Segovia","Saragoça ","Cuenca","Alicante","Las Palmas","Avila","Merida","Granada","Murcia"}
+NombreCiudades=["Madrid","Barcelona","Sevilla","Malaga","Cordoba","Toledo","Valencia","Bilbau","Salamanca","Palma","Caceres","Segovia","Saragoça ","Cuenca","Alicante","Las Palmas","Avila","Merida","Granada","Murcia"]
 ciudades= dict()
 
 for i in NombreCiudades:

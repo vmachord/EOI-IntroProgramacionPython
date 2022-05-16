@@ -1,0 +1,8 @@
+Existe una cantidad de 35 mujeres mayores de edad
+Existe una cantidad de 9 hombres menores de edad
+Mujer con menor edad:0
+Mujer con mayor edad:101
+Hombre con menor edad:2
+Hombre con mayor edad:101
+El promedio de edad de mujeres es: 45.70
+El promedio de edad de hombres es: 50.22
